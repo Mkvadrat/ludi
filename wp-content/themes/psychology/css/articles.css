@@ -1,0 +1,209 @@
+.menu-line {
+  margin-bottom: 35px;
+}
+
+/*----------------------------------------------*/
+/*----- start description-types-assistance -----*/
+/*----------------------------------------------*/
+.articles .articles-list h1 {
+  text-align: left;
+  padding-bottom: 34px;
+}
+.articles .articles-list p {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  padding: 0 0 26px 0;
+}
+.articles .articles-list img {
+  width: 100%;
+  height: auto;
+}
+.articles .articles-list h3 {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  padding-top: 28px;
+  text-align: left;
+}
+.articles .articles-list .article-block {
+  min-height: 150px;
+  margin-bottom: 29px;
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.articles .articles-list .article-block img {
+  float: left;
+  width: 225px;
+  height: auto;
+}
+.articles .articles-list .article-block h2 {
+  text-align: left;
+  padding: 10px 10px 7px 17px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e3dff3;
+  overflow: hidden;
+}
+.articles .articles-list .article-block p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 10px 16px 20px;
+  overflow: hidden;
+}
+.articles .articles-list .article-block p a {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  color: #594f86;
+  text-decoration: underline;
+}
+.articles .articles-list .pagination-articles {
+  margin-bottom: 18px;
+  padding: 0px;
+}
+.articles .articles-list .pagination-articles li {
+  display: inline-block;
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #c5c2d3;
+  padding: 5px;
+}
+.articles .articles-list .pagination-articles li a {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #c5c2d3;
+}
+.articles .articles-list .pagination-articles li a:hover,
+.articles .articles-list .pagination-articles .active span {
+  color: #594f86;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.articles .articles-list .pagination-articles li a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.articles .articles-list .pagination-articles li:first-child a {
+  padding-left: 0px;
+}
+.articles .articles-list .devider-first {
+  margin: 19px 0 40px 0;
+}
+.articles .articles-list .form-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.articles .articles-list .form-block .contact-tittle {
+  background-color: #a42fde;
+  color: #fff;
+  padding: 12px 20px 13px 23px;
+  margin-bottom: 19px;
+  font-size: 24px;
+}
+.articles .articles-list .form-block input {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.articles .articles-list .form-block textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  padding: 5px 12px;
+}
+.articles .articles-list .form-block input[type="text"]:focus::-webkit-input-placeholder,
+.articles .articles-list .form-block input[type="tel"]:focus::-webkit-input-placeholder,
+.articles .articles-list .form-block input[type="email"]:focus::-webkit-input-placeholder,
+.articles .articles-list .form-block textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.articles .articles-list .form-block input[type="text"]:focus::-moz-placeholder,
+.articles .articles-list .form-block input[type="tel"]:focus::-moz-placeholder,
+.articles .articles-list .form-block input[type="email"]:focus::-moz-placeholder,
+.articles .articles-list .form-block textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.articles .articles-list .form-block input[type="text"]:focus:-moz-placeholder,
+.articles .articles-list .form-block input[type="tel"]:focus:-moz-placeholder,
+.articles .articles-list .form-block input[type="email"]:focus:-moz-placeholder,
+.articles .articles-list .form-block textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.articles .articles-list .form-block input[type="text"]:focus:-ms-input-placeholder,
+.articles .articles-list .form-block input[type="email"]:focus:-ms-input-placeholder,
+.articles .articles-list .form-block textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.articles .articles-list .form-block .button {
+  width: 154px;
+  margin-top: 46px;
+  margin-left: 25px;
+  float: none;
+  top: -28px;
+}
+.articles .articles-list .devider-second {
+  margin: 40px 0 36px 0;
+}
+.articles .articles-list .look-help {
+  float: none;
+  max-width: 430px;
+  width: 100%;
+  padding: 14px 20px;
+}
+.articles .right-sidebar-portrait {
+  margin-top: 74px;
+  text-align: center;
+}
+.articles .right-sidebar-portrait img {
+  display: block;
+  width: 226px;
+  margin: 0 auto 29px;
+}
+.articles .right-sidebar-portrait .devider {
+  margin-top: 0px;
+}
+.articles .right-sidebar-portrait p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 0 23px 0;
+}
+.articles .right-sidebar-portrait a {
+  float: none;
+  width: 170px;
+  margin: 0 auto 18px;
+  padding: 14px;
+}
+
+/*--------------------------------------------*/
+/*----- end description-types-assistance -----*/
+/*--------------------------------------------*/
+
+/*# sourceMappingURL=articles.css.map */

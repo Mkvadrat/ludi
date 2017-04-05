@@ -1,0 +1,1300 @@
+/*---------- start templates ----------*/
+body a {
+  outline: none !important;
+}
+
+.st0{fill:#594F86;}
+
+p {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #616161;
+  padding: 0px 15px 25px;
+}
+
+.strong-p {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #616161;
+  padding-bottom: 35px;
+}
+
+.cursive-p {
+  font-family: "MyriadPro-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  padding-bottom: 35px;
+  font-style: italic;
+}
+
+.bg-h2 {
+  position: relative;
+  background-image: url(../images/bg-line-blue.jpg);
+  background-repeat: repeat-x;
+}
+
+h1 {
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #594f86;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #594f86;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+h4 {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.strong-p,
+strong {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  padding: 0 0 40px 0;
+}
+
+p {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  padding: 0 0 35px 0;
+}
+
+.padding-none {
+  padding: 0 !important;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.button {
+  position: relative;
+  display: block;
+  width: 150px;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  padding: 14px 28px;
+  background-color: #a42fde;
+  border-radius: 5px;
+  float: right;
+  overflow: hidden;
+  box-shadow: inset 0 0 18px #b650e8;
+  border: 1px solid #68a212;
+  text-align: center;
+}
+.button b {
+  position: relative;
+  z-index: 1;
+}
+.button span {
+  position: absolute;
+  bottom: -95px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 200%;
+  background: #68a212;
+  background: -webkit-linear-gradient(270deg, #68a212 45%, #a42fde 100%);
+  background: -webkit-linear-gradient(90deg, #68a212 45%, #a42fde 100%);
+  background: linear-gradient(0deg, #68a212 45%, #a42fde 100%);
+}
+
+.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover span {
+  bottom: 0px;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+
+.button:not(:hover) span {
+  -webkit-transition: 2s;
+          transition: 2s;
+}
+
+.button-auto {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  padding: 14px 28px;
+  background-color: #a42fde;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: inset 0 0 18px #b650e8;
+  border: 1px solid #68a212;
+  text-align: center;
+}
+.button-auto b {
+  position: relative;
+  z-index: 1;
+}
+.button-auto span {
+  position: absolute;
+  bottom: -95px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 200%;
+  background: #68a212;
+  background: -webkit-linear-gradient(270deg, #68a212 45%, #a42fde 100%);
+  background: -webkit-linear-gradient(90deg, #68a212 45%, #a42fde 100%);
+  background: linear-gradient(0deg, #68a212 45%, #a42fde 100%);
+}
+
+.button-auto:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-auto:hover span {
+  bottom: 0px;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+
+.button-auto:not(:hover) span {
+  -webkit-transition: 2s;
+          transition: 2s;
+}
+
+.devider {
+  height: 1px;
+  opacity: 0.3;
+  background-color: #a296d6;
+  border-radius: 1px;
+  margin: 19px 0 24px 0;
+}
+
+ul, ol {
+  padding: 0px 25px 5px 25px;
+}
+ul li, ol li {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/*------------------------*/
+/*----- start header -----*/
+/*------------------------*/
+/*----- start scype-line -----*/
+.scype-line {
+  background-color: #02b4eb;
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.scype-line p {
+  font-family: "MuseoSansCyrl";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  padding: 0px 0px 10px 140px;
+  position: relative;
+  top: -11px;
+}
+.scype-line p .button {
+  top: 24px;
+  right: 40px;
+}
+.scype-line i {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  height: auto;
+  top: 21px;
+  fill: #fff !important;
+}
+.scype-line i img {
+	width: 100%;
+}
+.scype-line i .st1 {
+  fill: #02b4eb;
+}
+.scype-line i .st0 {
+  fill: #fff;
+}
+.scype-line .free {
+  color: white;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  text-align: center;
+  background-color: #68a212;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: -11px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.scype-line .free img {
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.description-free {
+  color: white;
+  font-family: "MuseoSansCyrl";
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+  width: 620px;
+  margin: 30px auto 20px;
+  padding: 0 20px 0 20px !important;
+}
+
+/*----- end scype-line -----*/
+/*----- start menu-line -----*/
+.menu-line {
+  background-color: #a42fde;
+}
+.menu-line .logo {
+  width: 180px;
+  height: 65px;
+  float: left;
+  margin: 1px 15px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+.menu-line .logo img {
+  width: 91px;
+  height: auto;
+}
+.menu-line .logo p {
+  position: relative;
+  top: -7px;
+  display: inline-block;
+  font-family: "MuseoSansCyrl";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.menu-line .logo p span {
+  text-transform: none;
+  font-size: 12px;
+}
+.menu-line .logo:hover p {
+  color: #98ff00;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.menu-line .logo:not(:hover) p {
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.menu-line nav {
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  margin-right: 15px;
+}
+.menu-line ul {
+  padding: 0px;
+}
+.menu-line .navbar-default .navbar-nav > li > a {
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+  padding: 30px 16px;
+  position: relative;
+  z-index: 1;
+}
+.menu-line .navbar-default .navbar-nav > li {
+  position: relative;
+  overflow: hidden;
+}
+.menu-line .navbar-default .navbar-nav > li span {
+  position: absolute;
+  bottom: -160px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  height: 200%;
+  background: #68a212;
+  background: -webkit-linear-gradient(270deg, #68a212 45%, #a42fde 100%);
+  background: -webkit-linear-gradient(90deg, #68a212 45%, #a42fde 100%);
+  background: linear-gradient(0deg, #68a212 45%, #a42fde 100%);
+}
+.menu-line .navbar-default .navbar-nav > li:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-line .navbar-default .navbar-nav > li:hover span {
+  bottom: 0px;
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.menu-line .navbar-default .navbar-nav > li:not(:hover) span {
+  -webkit-transition: 2s;
+          transition: 2s;
+}
+.menu-line .navbar-default .navbar-nav > .active > a,
+.menu-line .navbar-default .navbar-nav > .active > a:hover,
+.menu-line .navbar-default .navbar-nav > .active > a:focus,
+.current-menu-parent a,
+.current-post-parent a {
+  background-color: #68a212;
+  color: #fff;
+}
+
+/*----- end menu-line -----*/
+/*----------------------*/
+/*----- end header -----*/
+/*----------------------*/
+/*------------------------*/
+/*----- start banner -----*/
+/*------------------------*/
+.banner {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  background-color: #5f5050;
+  background-image: url(../images/bg-banner.jpg);
+  background-size: 130% auto;
+  background-repeat: no-repeat;
+  /*.bg-banner {
+  	position: absolute;
+  	height: 1000px !important;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  }*/
+}
+.banner .girl {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.banner .wrap-big-table {
+  float: left;
+  margin: 1vw 1vw 1vw 1vw;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.banner .wrap-big-table table {
+  position: relative;
+  background-color: white;
+}
+.banner .wrap-big-table table tr td {
+  width: 124px;
+  height: 124px;
+  border: 1px solid #d7d7d7;
+  position: relative;
+  vertical-align: top;
+}
+.banner .wrap-big-table table tr td a {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 1px;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 5px;
+  padding: 54px 2px 0px 2px;
+  font-family: "MuseoSansCyrl";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #594f86;
+}
+.banner .wrap-big-table table tr td a svg {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -18px;
+  width: 36px;
+  height: auto;
+  fill: #fff !important;
+}
+.banner .wrap-big-table table tr td a:hover {
+  background-color: #a42fde;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.banner .wrap-big-table table tr td a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.banner .wrap-big-table table tr td a:hover .st0 {
+  -webkit-transition: 2s;
+          transition: 2s;
+  fill: #fff;
+}
+.banner .wrap-big-table table tr td a:not(:hover) .st0 {
+  -webkit-transition: 2s;
+          transition: 2s;
+}
+.banner .tittle-banner {
+  position: relative;
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #fff;
+  overflow: hidden;
+  padding: 180px 2vw 0vw 1vw;
+}
+.banner .descr-tittle-banner {
+  position: relative;
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  overflow: hidden;
+  padding: 1vw 0vw 2vw 1vw;
+  width: 390px;
+}
+.banner .button {
+  float: left;
+  margin-left: 1vw;
+}
+
+/*----------------------*/
+/*----- end banner -----*/
+/*----------------------*/
+/*------------------------------*/
+/*----- start small-banner -----*/
+/*------------------------------*/
+.small-banner {
+  width: 968px;
+  min-height: 390px;
+  height: auto;
+  margin: 0px auto 38px;
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.small-banner img {
+  width: 636px;
+  height: auto;
+  float: left;
+}
+.small-banner p {
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  overflow: hidden;
+  padding: 0px 27px 24px 28px;
+}
+.small-banner p:nth-child(2) {
+  padding-top: 24px;
+}
+
+/*----------------------------*/
+/*----- end small-banner -----*/
+/*----------------------------*/
+/*--------------------------------*/
+/*----- end advantages-scype -----*/
+/*--------------------------------*/
+.first-paragraph {
+  padding-top: 20px !important;
+}
+.advantages-scype {
+  margin-bottom: 15px;
+}
+.advantages-scype .advantages-scype-tittle {
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #594f86;
+  padding-bottom: 24px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #e3dff3;
+  text-align: center;
+}
+.advantages-scype img {
+  width: 304px;
+  height: auto;
+}
+.advantages-scype p {
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  overflow: hidden;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.advantages-scype .col-md-4 p:nth-child(2) {
+  padding-top: 19px;
+}
+
+/*--------------------------------*/
+/*----- end advantages-scype -----*/
+/*--------------------------------*/
+
+/*---------------------------------*/
+/*----- start confidentiality -----*/
+/*---------------------------------*/
+.confidentiality {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+  margin-bottom: 41px;
+}
+.confidentiality svg {
+  display: block;
+  width: 164px;
+  margin: 33px 97px 0 71px;
+  float: left;
+}
+.confidentiality .tittle-block {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #594f86;
+  padding: 32px 15px 26px 0px;
+}
+.confidentiality p {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  padding: 0px 15px 26px 0px;
+  overflow: hidden;
+}
+
+/*-------------------------------*/
+/*----- end confidentiality -----*/
+/*-------------------------------*/
+/*-----------------------------*/
+/*----- start three-steps -----*/
+/*-----------------------------*/
+.three-steps-tittle p {
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #594f86;
+  padding-bottom: 51px;
+  text-align: center;
+}
+
+/*-----------------------------*/
+/*----- start three-steps -----*/
+/*-----------------------------*/
+/*-----------------------------*/
+/*----- start three-steps -----*/
+/*-----------------------------*/
+.three-steps {
+  margin-bottom: 36px;
+}
+.three-steps .step-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+  text-align: center;
+  min-height: 200px;
+}
+.three-steps .step-block .step {
+  font-family: "MuseoSansCyrl";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #594f86;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e3dff3;
+}
+.three-steps .step-block p {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #000;
+  padding: 30px 20px 20px 20px;
+}
+.three-steps .button {
+  float: none;
+  max-width: 360px;
+  width: 100%;
+  margin: 38px auto 0;
+  padding: 14px 16px;
+  text-align: center;
+}
+
+/*---------------------------*/
+/*----- end three-steps -----*/
+/*---------------------------*/
+/*--------------------------*/
+/*----- start seo-text -----*/
+/*--------------------------*/
+.seo-text {
+  margin-bottom: 16px;
+}
+.seo-text .tittle-seo {
+  font-family: "MuseoSansCyrl";
+  font-size: 36px !important;
+  font-weight: 400 !important;
+  line-height: 38px !important;
+  color: #594f86 !important;
+  text-align: center;
+  padding-top: 38px !important;
+  padding-bottom: 25px !important;
+  border-top: 1px solid #e3dff3 !important;
+}
+.seo-text img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.seo-text .col-md-12 p,
+.first-paragraph {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  padding: 0 0 23px 0;
+}
+
+.seo-text a {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #594f86;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+}
+
+.seo-text a:hover {
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.seo-text a:not(:hover) {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+/*------------------------*/
+/*----- end seo-text -----*/
+/*------------------------*/
+/*-------------------------*/
+/*----- start reviews -----*/
+/*-------------------------*/
+.reviews p {
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #594f86;
+  padding-bottom: 30px;
+  padding-top: 34px;
+  text-align: center;
+  border-top: 1px solid #e3dff3;
+}
+
+/*-----------------------*/
+/*----- end reviews -----*/
+/*-----------------------*/
+/*---------------------------------*/
+/*----- start reviews-clients -----*/
+/*---------------------------------*/
+.reviews-clients {
+  margin-bottom: 13px;
+}
+.reviews-clients .review-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+  text-align: center;
+  min-height: 280px;
+  overflow: hidden;
+}
+.reviews-clients .review-block .block-svg {
+  width: 61px;
+  height: 61px;
+  border: 1px solid #e3dff3;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  margin: 5px 23px 0px 24px;
+}
+.reviews-clients .review-block .block-svg svg {
+  position: relative;
+  top: 11px;
+  width: 35px;
+}
+.reviews-clients .review-block .family {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #594f86;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e3dff3;
+  text-align: left;
+  min-height: 71px;
+}
+.reviews-clients .review-block p {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  padding: 28px 10px 20px 10px;
+  text-align: center;
+}
+.reviews-clients .review-block a {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #594f86;
+  text-decoration: underline;
+}
+.reviews-clients .review-block a:hover {
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews-clients .review-block a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews-clients .button {
+  float: none;
+  width: 142px;
+  margin: 41px auto 35px;
+  padding: 14px 18px;
+}
+.reviews-clients .devider {
+  height: 1px;
+  background-color: #e3dff3;
+}
+
+/*-------------------------------*/
+/*----- end reviews-clients -----*/
+/*-------------------------------*/
+/*-------------------------------*/
+/*----- start main-contacts -----*/
+/*-------------------------------*/
+.form-block div {
+  overflow: hidden;
+}
+.main-contacts .contact-tittle {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 26px !important;
+  color: #594f86 !important;
+  padding: 13px 0 27px 0 !important;
+}
+.main-contacts p {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 0 0 5px 0;
+}
+.main-contacts .button {
+  width: 212px;
+  text-align: center;
+  float: none;
+  margin-top: 20px;
+  padding: 14px 16px;
+}
+.main-contacts .form-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.main-contacts .form-block .contact-tittle {
+  background-color: #a42fde;
+  color: #fff !important;
+  padding: 12px 20px 13px 23px !important;
+  margin-bottom: 19px !important;
+}
+.main-contacts .form-block input {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.main-contacts .form-block textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  padding: 5px 12px;
+}
+.main-contacts .form-block input[type="text"]:focus::-webkit-input-placeholder,
+.main-contacts .form-block input[type="tel"]:focus::-webkit-input-placeholder,
+.main-contacts .form-block input[type="email"]:focus::-webkit-input-placeholder,
+.main-contacts .form-block textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.main-contacts .form-block input[type="text"]:focus::-moz-placeholder,
+.main-contacts .form-block input[type="tel"]:focus::-moz-placeholder,
+.main-contacts .form-block input[type="email"]:focus::-moz-placeholder,
+.main-contacts .form-block textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.main-contacts .form-block input[type="text"]:focus:-moz-placeholder,
+.main-contacts .form-block input[type="tel"]:focus:-moz-placeholder,
+.main-contacts .form-block input[type="email"]:focus:-moz-placeholder,
+.main-contacts .form-block textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.main-contacts .form-block input[type="text"]:focus:-ms-input-placeholder,
+.main-contacts .form-block input[type="email"]:focus:-ms-input-placeholder,
+.main-contacts .form-block textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
+
+/*-----------------------------*/
+/*----- end main-contacts -----*/
+/*-----------------------------*/
+/*------------------------*/
+/*----- start footer -----*/
+/*------------------------*/
+footer {
+  background-color: #565269;
+  margin-top: 35px;
+}
+footer .footer-menu {
+  padding: 0;
+  display: table;
+  text-align: center;
+  width: 100%;
+  margin-top: 16px;
+}
+footer .footer-menu li {
+  display: inline-block;
+}
+footer .footer-menu li a {
+  display: block;
+  padding: 10px 12px;
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+}
+footer .social {
+  margin: 21px 0;
+}
+footer .social p {
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  text-align: right;
+  margin-right: 41px;
+}
+footer .social a {
+  position: relative;
+  top: -7px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  float: right;
+  margin-left: 10px;
+}
+footer .social a:hover {
+  box-shadow: 0px 0px 5px 0px white;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+footer .social a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+footer .make {
+  margin: 21px 0 20px;
+}
+footer .make p {
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  width: 167px;
+  padding-left: 10px;
+}
+footer .make a {
+  position: relative;
+  top: -6px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  float: right;
+}
+footer .make a:hover {
+  box-shadow: 0px 0px 5px 0px white;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+footer .make a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+
+/*----------------------*/
+/*----- end footer -----*/
+/*----------------------*/
+/*----------------------------*/
+/*----- start form-scype -----*/
+/*----------------------------*/
+.scype-form-modal {
+  overflow: hidden;
+}
+
+.scype-form-modal,
+.fancybox-skin {
+  /*width: 968px !important;*/
+  height: auto;
+  background-color: white;
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+  padding: 0px !important;
+  border-radius: 0px !important;
+}
+.scype-form-modal .contact-tittle,
+.fancybox-skin .contact-tittle {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #594f86;
+  padding: 12px 20px 31px 355px;
+}
+.scype-form-modal .text-in-form,
+.fancybox-skin .text-in-form {
+  width: 290px;
+  margin-left: 30px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+}
+.scype-form-modal form,
+.fancybox-skin form {
+  width: 640px;
+  display: inline-block;
+}
+.scype-form-modal form input,
+.fancybox-skin form input {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.scype-form-modal form textarea,
+.fancybox-skin form textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  padding: 5px 12px;
+}
+.scype-form-modal form input[type="text"]:focus::-webkit-input-placeholder,
+.scype-form-modal form input[type="tel"]:focus::-webkit-input-placeholder,
+.scype-form-modal form input[type="email"]:focus::-webkit-input-placeholder,
+.scype-form-modal form textarea:focus::-webkit-input-placeholder,
+.fancybox-skin form input[type="text"]:focus::-webkit-input-placeholder,
+.fancybox-skin form input[type="tel"]:focus::-webkit-input-placeholder,
+.fancybox-skin form input[type="email"]:focus::-webkit-input-placeholder,
+.fancybox-skin form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.scype-form-modal form input[type="text"]:focus::-moz-placeholder,
+.scype-form-modal form input[type="tel"]:focus::-moz-placeholder,
+.scype-form-modal form input[type="email"]:focus::-moz-placeholder,
+.scype-form-modal form textarea:focus::-moz-placeholder,
+.fancybox-skin form input[type="text"]:focus::-moz-placeholder,
+.fancybox-skin form input[type="tel"]:focus::-moz-placeholder,
+.fancybox-skin form input[type="email"]:focus::-moz-placeholder,
+.fancybox-skin form textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.scype-form-modal form input[type="text"]:focus:-moz-placeholder,
+.scype-form-modal form input[type="tel"]:focus:-moz-placeholder,
+.scype-form-modal form input[type="email"]:focus:-moz-placeholder,
+.scype-form-modal form textarea:focus:-moz-placeholder,
+.fancybox-skin form input[type="text"]:focus:-moz-placeholder,
+.fancybox-skin form input[type="tel"]:focus:-moz-placeholder,
+.fancybox-skin form input[type="email"]:focus:-moz-placeholder,
+.fancybox-skin form textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.scype-form-modal form input[type="text"]:focus:-ms-input-placeholder,
+.scype-form-modal form input[type="email"]:focus:-ms-input-placeholder,
+.scype-form-modal form textarea:focus:-ms-input-placeholder,
+.fancybox-skin form input[type="text"]:focus:-ms-input-placeholder,
+.fancybox-skin form input[type="email"]:focus:-ms-input-placeholder,
+.fancybox-skin form textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.scype-form-modal form .button,
+.fancybox-skin form .button {
+  width: 154px;
+  margin-top: 46px;
+  margin-left: 25px;
+  float: none;
+  top: -28px;
+}
+
+/*--------------------------*/
+/*----- end form-scype -----*/
+/*--------------------------*/
+.banner-for-small-screen {
+  display: none;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+/*----- 27.01.2017 -----*/
+
+.banner {
+	margin-top: -35px;
+}
+
+.confidentiality img {
+	float: left;
+	margin: 33px 97px 0 71px;
+}
+
+.confidentiality p:nth-child(2) {
+	display: none; /*убрал пустой абзац, который дорисовывает ВП */
+}
+
+.reviews .advantages-scype-tittle {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+.main-contacts .form-block input.button,
+.form-block input.button {
+  font-family: "MuseoSansCyrl" !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  color: #fff !important;
+  padding: 14px 28px !important;
+  background-color: #a42fde !important;
+  border-radius: 5px !important;
+  box-shadow: inset 0 0 18px #b650e8 !important;
+  border: 1px solid #68a212 !important;
+  text-align: center !important;
+  height: 48px !important;
+  display: inline !important;
+  width: auto !important;
+  margin: 20px 0px 20px 27px !important;
+  top: 0 !important;
+}
+.main-contacts .form-block input.button:hover,
+.form-block input.button:hover {
+  background-color: #68a212 !important;
+  box-shadow: inset 0 0 18px #68a212 !important;
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+      -ms-transition: 1s;
+       -o-transition: 1s;
+          transition: 1s;
+}
+
+.main-contacts .form-block input.button:not(:hover),
+.form-block input.button:not(:hover) {
+  -webkit-transition: 1s;
+     -moz-transition: 1s;
+      -ms-transition: 1s;
+       -o-transition: 1s;
+          transition: 1s;
+}
+
+
+
+
+.current {
+  color: #594f86;
+}
+
+.main-contacts-form {
+  margin-top: 30px;
+  display: none !important;
+}
+
+.main-contacts-form p,
+.main-contacts p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  color: #000 !important;
+  padding: 0 0 5px 0 !important;
+  border: none !important;
+}
+
+.main-contacts-form .contact-tittle {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 26px !important;
+  color: #594f86 !important;
+  padding: 13px 0 27px 0 !important;
+}
+
+
+
+
+.left-sidebar .main-contacts {
+  display: block;
+}
+
+.back-to-home {
+  color: #000;
+}
+
+.back-to-home:hover {
+  color: #000;
+}
+
+
+
+.payment-methods-list p {
+  display: inline-block;
+  width: 48%;
+}
+
+.payment-methods-list p:first-child {
+  text-align: left;
+  padding-left: 28px;
+}
+
+.payment-methods-list p:first-child img {
+  padding-left: 25px;
+}
+
+.payment-methods-list p:nth-child(2) img {
+  position: relative;
+  top: 16px;
+}
+
+.payment-methods-list p:last-child {
+  float: right;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 18px;
+}
+
+.payment-methods-list p:last-child span {
+  padding-left: 61px
+}

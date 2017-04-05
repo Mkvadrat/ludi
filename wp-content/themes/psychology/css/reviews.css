@@ -1,0 +1,257 @@
+.menu-line {
+  margin-bottom: 35px;
+}
+
+/*----------------------------------------------*/
+/*----- start description-types-assistance -----*/
+/*----------------------------------------------*/
+.reviews p {
+  text-align: left;
+}
+.reviews .reviews-list h1 {
+  text-align: left;
+  padding-bottom: 34px;
+}
+.reviews .reviews-list .ratio-stories {
+  padding: 0px;
+}
+.reviews .reviews-list .ratio-stories li {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.reviews .reviews-list .ratio-stories li h2 {
+  text-align: left;
+  padding: 25px 25px 25px 0px;
+  border-bottom: 1px solid #e3dff3;
+  margin-bottom: 30px;
+}
+.reviews .reviews-list .ratio-stories li h2 .block-svg {
+  width: 61px;
+  height: 61px;
+  border: 1px solid #e3dff3;
+  border-radius: 50%;
+  text-align: center;
+  float: left;
+  margin: -17px 24px 0px 24px;
+}
+.reviews .reviews-list .ratio-stories li h2 .block-svg svg {
+  position: relative;
+  top: 11px;
+  width: 35px;
+}
+.reviews .reviews-list .ratio-stories li p {
+  padding: 0px 25px 20px 25px;
+  line-height: 22px;
+  border: none;
+}
+.reviews .reviews-list .ratio-stories li .slide-reviews {
+  display: none;
+}
+.reviews .reviews-list .ratio-stories li .expand {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #594f86;
+  text-decoration: underline;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.reviews .reviews-list .ratio-stories li .expand:hover {
+  color: #a531df;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews .reviews-list .ratio-stories li .expand:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews .reviews-list .ratio-stories li ul li {
+  margin-bottom: 5px;
+  box-shadow: none;
+}
+.reviews .reviews-list .ratio-stories li .name {
+  text-align: right;
+}
+.reviews .reviews-list p {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  padding: 0 0 26px 0;
+}
+.reviews .reviews-list img {
+  width: 100%;
+  height: auto;
+}
+.reviews .reviews-list h3 {
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000;
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  padding-top: 28px;
+  text-align: left;
+}
+.reviews .reviews-list .pagination-reviews {
+  margin-bottom: 18px;
+  padding: 0px;
+}
+.reviews .reviews-list .pagination-reviews li {
+  display: inline-block;
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #c5c2d3;
+  padding: 5px;
+}
+.reviews .reviews-list .pagination-reviews li a {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #c5c2d3;
+}
+.reviews .reviews-list .pagination-reviews li a:hover,
+.reviews .current {
+  color: #594f86;
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews .reviews-list .pagination-reviews li a:not(:hover) {
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+.reviews .reviews-list .pagination-reviews li:first-child a {
+  padding-left: 0px;
+}
+.reviews .reviews-list .devider-first {
+  margin: 19px 0 40px 0;
+}
+.reviews .reviews-list .form-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.reviews .reviews-list .form-block .contact-tittle {
+  background-color: #a42fde;
+  color: #fff;
+  padding: 12px 20px 13px 23px;
+  margin-bottom: 19px;
+  font-size: 24px;
+}
+.reviews .reviews-list .form-block input,
+.reviews .reviews-list .form-block select {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.reviews .reviews-list .form-block select {
+  color: #757575;
+}
+.reviews .reviews-list .form-block textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto 18px;
+  resize: none;
+  padding: 5px 12px;
+}
+.reviews .reviews-list .form-block input[type="text"]:focus::-webkit-input-placeholder,
+.reviews .reviews-list .form-block input[type="tel"]:focus::-webkit-input-placeholder,
+.reviews .reviews-list .form-block input[type="email"]:focus::-webkit-input-placeholder,
+.reviews .reviews-list .form-block textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.reviews .reviews-list .form-block input[type="text"]:focus::-moz-placeholder,
+.reviews .reviews-list .form-block input[type="tel"]:focus::-moz-placeholder,
+.reviews .reviews-list .form-block input[type="email"]:focus::-moz-placeholder,
+.reviews .reviews-list .form-block textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.reviews .reviews-list .form-block input[type="text"]:focus:-moz-placeholder,
+.reviews .reviews-list .form-block input[type="tel"]:focus:-moz-placeholder,
+.reviews .reviews-list .form-block input[type="email"]:focus:-moz-placeholder,
+.reviews .reviews-list .form-block textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.reviews .reviews-list .form-block input[type="text"]:focus:-ms-input-placeholder,
+.reviews .reviews-list .form-block input[type="email"]:focus:-ms-input-placeholder,
+.reviews .reviews-list .form-block textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.reviews .reviews-list .form-block .button {
+  width: 154px;
+  margin-top: 46px;
+  margin-left: 25px;
+  float: none;
+  top: -28px;
+  cursor: pointer;
+}
+.reviews .reviews-list .devider-second {
+  margin: 40px 0 36px 0;
+}
+.reviews .reviews-list .enroll-online {
+  margin-bottom: 30px;
+}
+.reviews .right-sidebar-portrait {
+  margin-top: 74px;
+}
+.reviews .right-sidebar-portrait img {
+  display: block;
+  width: 226px;
+  margin: 0 auto 29px;
+}
+.reviews .right-sidebar-portrait p {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 0 23px 0;
+  border: none;
+  text-align: center;
+}
+.reviews .right-sidebar-portrait a {
+  float: none;
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  padding: 14px;
+}
+
+/*--------------------------------------------*/
+/*----- end description-types-assistance -----*/
+/*--------------------------------------------*/
+
+/*# sourceMappingURL=reviews.css.map */
+
+
+
+.error_class_form {
+  width: 92%;
+  margin: 20px auto 30px;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}

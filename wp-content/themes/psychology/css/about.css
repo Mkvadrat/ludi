@@ -1,0 +1,168 @@
+.menu-line {
+  margin-bottom: 35px;
+}
+
+/*----------------------------------------------*/
+/*----- start description-types-assistance -----*/
+/*----------------------------------------------*/
+.about h1 {
+  padding-bottom: 30px;
+}
+.about .strong-p {
+  padding: 0 0 22px 0;
+}
+.about p {
+  padding: 0 0 27px 0;
+}
+.about .devider {
+  margin: 20px 0 20px 0;
+}
+.about h3 {
+  padding-bottom: 7px;
+}
+.about .form-block {
+  margin-top: 75px;
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.about .form-block .contact-tittle {
+  background-color: #a42fde;
+  color: #fff;
+  padding: 12px 20px 13px 23px;
+  margin-bottom: 19px;
+  font-size: 24px;
+}
+.about .form-block input {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.about .form-block textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  padding: 5px 12px;
+}
+.about .form-block input[type="text"]:focus::-webkit-input-placeholder,
+.about .form-block input[type="tel"]:focus::-webkit-input-placeholder,
+.about .form-block input[type="email"]:focus::-webkit-input-placeholder,
+.about .form-block textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.about .form-block input[type="text"]:focus::-moz-placeholder,
+.about .form-block input[type="tel"]:focus::-moz-placeholder,
+.about .form-block input[type="email"]:focus::-moz-placeholder,
+.about .form-block textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.about .form-block input[type="text"]:focus:-moz-placeholder,
+.about .form-block input[type="tel"]:focus:-moz-placeholder,
+.about .form-block input[type="email"]:focus:-moz-placeholder,
+.about .form-block textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.about .form-block input[type="text"]:focus:-ms-input-placeholder,
+.about .form-block input[type="email"]:focus:-ms-input-placeholder,
+.about .form-block textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.about .form-block .button {
+  width: 154px;
+  margin-top: 46px;
+  margin-left: 25px;
+  float: none;
+  top: -28px;
+}
+.about .look-help {
+  float: none;
+  max-width: 430px;
+  width: 100%;
+  padding: 14px 20px;
+}
+
+.right-sidebar-portrait {
+  margin-top: 79px;
+}
+.right-sidebar-portrait img {
+  display: block;
+  width: 226px;
+  margin: 0 auto 31px;
+}
+.right-sidebar-portrait .devider {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.right-sidebar-portrait p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 0 23px 0;
+}
+.right-sidebar-portrait .list-page-articles {
+  padding: 0;
+  margin-top: 197px;
+  margin-bottom: 17px;
+}
+.right-sidebar-portrait .list-page-articles li {
+  width: 305px;
+  margin-bottom: 99px;
+}
+.right-sidebar-portrait .list-page-articles li a {
+  display: block;
+}
+.right-sidebar-portrait .list-page-articles li a img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.right-sidebar-portrait .list-page-articles li a:hover img {
+  -webkit-filter: contrast(200%);
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.right-sidebar-portrait .list-page-articles li a:not(:hover) img {
+  -webkit-transition: 1s;
+          transition: 1s;
+}
+.right-sidebar-portrait .main-contacts p {
+  padding: 0 0 5px 0;
+}
+
+/*--------------------------------------------*/
+/*----- end description-types-assistance -----*/
+/*--------------------------------------------*/
+
+/*# sourceMappingURL=about.css.map */
+
+
+.diplom-photos {
+  margin-top: 20px;
+  padding-bottom: 10px !important;
+}
+
+.diplom-photos img:first-child {
+  max-width: 484px;
+  width: 100%;
+}
+
+.diplom-photos img:nth-child(3),
+.diplom-photos img:nth-child(4) {
+  max-width: 309px;
+  width: 100%;
+}

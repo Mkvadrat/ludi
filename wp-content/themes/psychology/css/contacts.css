@@ -1,0 +1,134 @@
+.menu-line {
+  margin-bottom: 35px;
+}
+
+/*----------------------------------------------*/
+/*----- start description-types-assistance -----*/
+/*----------------------------------------------*/
+.contacts .left-sidebar-portrait {
+  margin-top: 0px;
+}
+.contacts .left-sidebar-portrait img {
+  display: block;
+  width: 226px;
+  margin: 0 auto 29px;
+}
+.contacts .left-sidebar-portrait .devider {
+  margin-top: 0px;
+}
+.contacts .left-sidebar-portrait p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 0 23px 0;
+  text-align: center;
+}
+.contacts .left-sidebar-portrait a {
+  float: none;
+  padding: 14px;
+}
+.contacts .left-sidebar-portrait .skype-consult {
+  width: 210px;
+  margin: 0 auto 18px;
+}
+.contacts .left-sidebar-portrait .know-about-me {
+  width: 170px;
+  margin: 0 auto;
+}
+.contacts .contacts-main p {
+  line-height: 23px;
+  padding: 0px;
+  font-size: 16px;
+}
+.contacts .contacts-main p span {
+  display: block;
+  padding-bottom: 25px;
+  font-size: 24px;
+}
+.contacts .contacts-main .devider-above-map {
+  margin: 9px 0 10px 0;
+}
+.contacts .contacts-main .map-tittle {
+  padding-bottom: 10px;
+}
+.contacts .contacts-main .devider-under-map {
+  margin-top: 25px;
+  margin-bottom: 36px;
+}
+.contacts .contacts-main .form-block {
+  box-shadow: 0 1px 29px rgba(34, 30, 31, 0.28);
+}
+.contacts .contacts-main .form-block .contact-tittle {
+  font-family: "MuseoSansCyrl";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  background-color: #a42fde;
+  padding: 12px 20px 13px 23px;
+  margin-bottom: 19px;
+}
+.contacts .contacts-main .form-block input {
+  display: block;
+  width: 92%;
+  height: 35px;
+  margin: 0 auto 18px;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  padding: 5px 12px;
+}
+.contacts .contacts-main .form-block textarea {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #f3f3f3;
+  font-family: "MuseoSansCyrl";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000;
+  width: 92%;
+  height: 100px;
+  margin: 0 auto;
+  resize: none;
+  padding: 5px 12px;
+}
+.contacts .contacts-main .form-block input[type="text"]:focus::-webkit-input-placeholder,
+.contacts .contacts-main .form-block input[type="tel"]:focus::-webkit-input-placeholder,
+.contacts .contacts-main .form-block input[type="email"]:focus::-webkit-input-placeholder,
+.contacts .contacts-main .form-block textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.contacts .contacts-main .form-block input[type="text"]:focus::-moz-placeholder,
+.contacts .contacts-main .form-block input[type="tel"]:focus::-moz-placeholder,
+.contacts .contacts-main .form-block input[type="email"]:focus::-moz-placeholder,
+.contacts .contacts-main .form-block textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+.contacts .contacts-main .form-block input[type="text"]:focus:-moz-placeholder,
+.contacts .contacts-main .form-block input[type="tel"]:focus:-moz-placeholder,
+.contacts .contacts-main .form-block input[type="email"]:focus:-moz-placeholder,
+.contacts .contacts-main .form-block textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+.contacts .contacts-main .form-block input[type="text"]:focus:-ms-input-placeholder,
+.contacts .contacts-main .form-block input[type="email"]:focus:-ms-input-placeholder,
+.contacts .contacts-main .form-block textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.contacts .contacts-main .form-block .button {
+  width: 154px;
+  margin-top: 46px;
+  margin-left: 25px;
+  float: none;
+  top: -28px;
+}
+
+/*--------------------------------------------*/
+/*----- end description-types-assistance -----*/
+/*--------------------------------------------*/
+
+/*# sourceMappingURL=contacts.css.map */

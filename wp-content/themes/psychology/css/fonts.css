@@ -1,0 +1,25 @@
+/* font-family: "MyriadPro-Regular"; */
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "Andantino-script"; */
+@font-face {
+    font-family: "Andantino-script";
+    src: url("../fonts/Andantino-script.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* font-family: "MuseoSansCyrl"; */
+@font-face {
+    font-family: "MuseoSansCyrl";
+    src: url("../fonts/MuseoSansCyrl.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

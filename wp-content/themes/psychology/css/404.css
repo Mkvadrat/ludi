@@ -1,0 +1,39 @@
+.menu-line {
+  margin-bottom: 35px;
+}
+
+.error h3 {
+  color: #a42fde;
+  font-family: "MuseoSansCyrl";
+  font-size: 207px;
+  padding: 80px 0 10px 0;
+  text-align: center;
+  line-height: 207px;
+}
+
+.error p {
+  color: #594f86;
+  font-family: "MuseoSansCyrl";
+  font-size: 36px;
+  line-height: 36px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.error a {
+  width: 250px;
+  margin: 0 auto;
+  float: none;
+}
+
+@media only screen and (max-width : 450px) {
+  .error h3 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .error p {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
