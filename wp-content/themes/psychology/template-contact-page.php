@@ -50,7 +50,6 @@ get_header();
                  </div>-->
 
                  <!-- start map -->
-                 <?php if(!empty(get_field('adress_for_map_contact_page'))) { ?>
                    <div class="map" id="maps" style="width:100%; height:319px"></div>
                    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&load=package.full" type="text/javascript"> </script>
                    <script type="text/javascript">
@@ -94,7 +93,6 @@ get_header();
                                );
                            }
                    </script>
-                 <? } ?>
 
                  <div class="devider devider-under-map"></div>
 
